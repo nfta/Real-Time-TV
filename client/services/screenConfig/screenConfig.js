@@ -31,8 +31,8 @@ function ScreenConfig($rootScope, $state, $http, $q, $cookies) {
     routeOrder: [],
     hiddenRoutes: [],
     latLng: {
-      latitude: 41.4995,  // Default to Public Square, Cleveland
-      longitude: -81.6954
+      latitude: 42.8835,  // Default to MTC, Buffalo
+      longitude: -78.8732
     },
 
     timeFormat: 'HH:mm',
