@@ -20,25 +20,15 @@ function ConfigCtrl($rootScope, $state, $translate, ScreenConfig) {
     locale: $translate.instant('en'),
     onLocaleSelected: onLocaleSelected,
 
-    clevelandLocations: [
+    BuffaloLocations: [
       { name: 'Current Location', lat: null, lng: null, isCurrent: true },
-      { name: 'Airport Rapid Station', lat: 41.410592808463434, lng: -81.83658490145679 },
-      { name: 'Brookpark Rapid Station', lat: 41.41950486951733, lng: -81.82418132038563 },
-      { name: 'Cedar-University Rapid Station', lat: 41.50036132078834, lng: -81.60534902710886 },
-      { name: 'East 55th Rapid Station', lat: 41.48079481401043, lng: -81.651139574465 },
-      { name: 'Louis Stokes-Windermere Rapid Station', lat: 41.53069557710576, lng: -81.58482870329816}, 
-      { name: 'Parma Transit Center', lat: 41.38035320222386, lng: -81.74542397622126},
-      { name: 'Puritas-West 150th Rapid Station', lat: 41.44093227491849, lng: -81.80560850820272},
-      { name: 'Southgate Transit Center', lat: 41.41333392107179, lng: -81.53647891669462},
-      { name: 'Stephanie Tubbs Jones Transit Center', lat: 41.500025812857956, lng: -81.6748355554305},
-      { name: 'Superior Rapid Station', lat: 41.52310095279765, lng:  -81.5922001030831},
-      { name: 'Tower City', lat: 41.497652542726684, lng: -81.6939645456291 }, 
-      { name: 'Triskett Rapid Station', lat:  41.46625379002145, lng: -81.78495719082885 },
-      { name: 'West 117th-Madison Rapid Station', lat: 41.47651762302907, lng: -81.76794446097082 }, 
-      { name: 'West 65th-Lorain Rapid Station', lat: 41.47644077437727, lng:  -81.72816820964225 },
-      { name: 'West Blvd-Cudell Rapid Station', lat: 41.48041154114498, lng:  -81.75330820687311 },
-      { name: 'West Park Rapid Station', lat: 41.45732062480089, lng: -81.79265481189485 },
-      { name: 'Westgate Transit Center', lat: 41.46085157401124, lng: -81.85454734747715 } 
+      { name: 'MTC 1', lat: 42.883521072757055, lng: -78.87233486485076},
+      { name: 'Black Rock - Riverside Transit Hub', lat: 42.94571211629504, lng: -78.90717149979196},
+      { name: 'University Station', lat: 42.95467195989534, lng: -78.82043667909868},
+      { name: 'Utica Station', lat: 42.911535103476844, lng: -78.86537993994833},
+      { name: 'Allen Station', lat: 42.899537524235186, lng: -78.86965814322626}, 
+      { name: 'Portage Road Transit Center', lat: 43.099793380639916, lng: -79.05150964190122},
+      { name: 'Niagara Falls Transit Center', lat: 43.10059559154971, lng: -78.9800302986398},
     ],
     onLocationSelected: onLocationSelected,
 
