@@ -20,7 +20,7 @@ function ConfigCtrl($rootScope, $state, $translate, ScreenConfig) {
     locale: $translate.instant('en'),
     onLocaleSelected: onLocaleSelected,
 
-    BuffaloLocations: [
+    clevelandLocations: [
       { name: 'Current Location', lat: null, lng: null, isCurrent: true },
       { name: 'MTC 1', lat: 42.883521072757055, lng: -78.87233486485076},
       { name: 'Black Rock - Riverside Transit Hub', lat: 42.94571211629504, lng: -78.90717149979196},
